@@ -1,0 +1,97 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ff80bf;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+.project {
+    background-color: #ffb3d9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ff80bf;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff4da6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1a8c;
+}
+
+/* Karanlık Mod */
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode .project {
+    background-color: #555;
+}
+
+.dark-mode form {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #ff4da6;
+}
+
+.dark-mode button:hover {
+    background-color: #ff1a8c;
+}

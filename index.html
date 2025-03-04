@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Göksu Ataş | Portföy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Göksu Ataş</h1>
+        <nav>
+            <ul>
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#yetenekler">Yetenekler</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+                <li><button id="dark-mode-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="anasayfa">
+        <h2>Hoş Geldiniz!</h2>
+        <p>Ben Göksu Ataş, yazılım geliştiricisiyim. Portföyümü keşfetmek için aşağıya göz atabilirsiniz.</p>
+    </section>
+
+    <section id="projeler">
+        <h2>Projelerim</h2>
+        <div class="project">
+            <h3>Proje 1: Kişisel Web Sitesi</h3>
+            <p>Bu proje, HTML, CSS ve JavaScript kullanılarak oluşturulmuş kişisel bir portföy sitesidir.</p>
+        </div>
+        <div class="project">
+            <h3>Proje 2: Basit Blog</h3>
+            <p>JavaScript ve CSS kullanarak geliştirdiğim, dinamik içerik eklemeye uygun bir blog sistemi.</p>
+        </div>
+    </section>
+
+    <section id="yetenekler">
+        <h2>Bildiğim Programlama Dilleri</h2>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+        </ul>
+    </section>
+
+    <section id="hakkimda">
+        <h2>Hakkımda</h2>
+        <p>Kayseri Üniversitesi Yazılım Mühendisliği öğrencisiyim.</p>
+    </section>
+
+    <!-- SADECE BİR TANE İLETİŞİM FORMU BIRAKILDI -->
+    <section id="iletisim">
+        <h2>Bana Ulaşın</h2>
+        <form action="https://formspree.io/f/xvgzeepb" method="POST">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Göksu Ataş | Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
